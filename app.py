@@ -1,3 +1,4 @@
+from unicodedata import name
 from cars import car
 from Questions import question
 python_2 = 5
@@ -77,9 +78,16 @@ matrix1.sort()
 print(matrix1)
 
 
-print("test for added branch dev")
-print("test for added branch features")
-
-
-
+print("test for added branch")
+print("test2")
+#set are not dublicate numbers in array
+s1 = set([1,2,33,33,4])
+print(s1)
+#tuple container to store diferent values
+coordonates = [("hello", "world"), (32,11), (35,1)]
+#tuples are immutable can not been changed or modify
+print(coordonates[0][1]) 
+#dictionary
+student = {'name':'john','age':24,'courses':['Math','compSci'] }
+print(student['name'],student['courses'])
 
