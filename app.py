@@ -80,9 +80,19 @@ print(matrix1)
 
 print("test for added branch")
 print("test2")
-#set are not dublicate numbers in array
+#set is for do not dublicate numbers in array
 s1 = set([1,2,33,33,4])
+s1.add(6) # in case that you wanna add just one value
+s2 = set([12,14,15])
+s1.update([7,8,9],s2) #instead of add just one value you can add how many you want
+s1.remove(15) #to remove an existing number
+s1.discard(5) # remove value 5 even if its not existing now
+s3 = s1.intersection(s2) #s3 is for the same values in both sets
+s4 = s1.difference(s2) # s4 is differance between s1 and s2
 print(s1)
+print(s2)
+print(s3)
+print(s4)
 #tuple container to store diferent values
 coordonates = [("hello", "world"), (32,11), (35,1)]
 #tuples are immutable can not been changed or modify
