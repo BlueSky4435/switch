@@ -91,3 +91,7 @@ print(coordonates[0][1])
 student = {'name':'john','age':24,'courses':['Math','compSci'] }
 print(student['name'],student['courses'])
 
+#slicing is litteraly extracting certan elements form our array list list[start:end:step(skip)]
+print (matrix[1:4])
+print (matrix[2:])
+print (matrix[1:6:2])
