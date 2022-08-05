@@ -83,12 +83,12 @@ print("test2")
 #set is for do not dublicate numbers in array
 s1 = set([1,2,33,33,4])
 s1.add(6) # in case that you wanna add just one value
-s2 = set([12,14,15])
+s2 = set([12,14,15])#another set
 s1.update([7,8,9],s2) #instead of add just one value you can add how many you want
 s1.remove(15) #to remove an existing number
 s1.discard(5) # remove value 5 even if its not existing now
 s3 = s1.intersection(s2) #s3 is for the same values in both sets
-s4 = s1.difference(s2) # s4 is differance between s1 and s2
+s4 = s1.difference(s2) # s4 is elements that are in s1 and s2 without the dublicated elements (at all)
 print(s1)
 print(s2)
 print(s3)
@@ -105,3 +105,15 @@ print(student['name'],student['courses'])
 print (matrix[1:4])
 print (matrix[2:])
 print (matrix[1:6:2])
+
+#mutable variables is that you can change and vice versa(imutable)
+
+#statical and dynamic type of languages. Bassicly the dynamic language (as Python) dont need a specific variable 
+#for declare a value (int,string,bool) and you can change the variable when you want. statical is vice versa.
+#also python doesnt have a character variable (char like in C#)
+
+i = 0
+i = "string var"
+i = False
+print(type(i))
+
