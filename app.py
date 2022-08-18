@@ -1,6 +1,7 @@
 from unicodedata import name
 from cars import car
 from Questions import question
+from Objects import object
 python_2 = 5
 print("primul program " + str(python_2))
 
@@ -97,3 +98,10 @@ print(student['name'],student['courses'])
 print (matrix[1:4])
 print (matrix[2:])
 print (matrix[1:6:2])
+
+
+
+obj1 = object("Asus","ROG 554","Gaming")
+print(obj1.name)
+
+obj1.trax("noob")
